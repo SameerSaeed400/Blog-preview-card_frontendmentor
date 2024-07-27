@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: figtree;
+}
+
+.main-container {
+  width: 336px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 219px;
+  margin-bottom: 219px;
+  border-radius: 20px;
+  border: 2px solid;
+  box-shadow: 8px 8px 0px black;
+  padding: 24px;
+}
+
+.course-image {
+  border-radius: 10px;
+}
+
+.course-clasfication {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background: hsl(47, 88%, 63%);
+  font-size: 14px;
+  font-weight: 800;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.publish-date {
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 12px;
+}
+
+.course-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 12px;
+}
+
+.course-title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.main-container:hover {
+  box-shadow: 12px 12px 0px black;
+}
+
+.course-details {
+  width: 336px;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(0, 0%, 42%);
+  margin-bottom: 24px;
+}
+
+.author-name {
+  font-size: 14px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 40px;
+}
+
+.footer {
+  width: 128px;
+  height: 32;
+  position: relative;
+}
